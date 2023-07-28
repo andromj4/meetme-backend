@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "./src/server.ts",
+  "type": "module",
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV nodemon ./src/server.ts",
     "prod": "cross-env NODE_ENV=PROD node ./dist/server.js",
