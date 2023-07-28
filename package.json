@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV nodemon ./src/server.ts",
     "prod": "cross-env NODE_ENV=PROD node ./dist/server.js",
-    "build": "tsc"
+    "build": "yarn tsc"
   },
   "author": "Mohit Joshi",
   "license": "ISC",
@@ -31,6 +31,7 @@
     "@types/jsonwebtoken": "^9.0.2",
     "@types/luxon": "^3.3.0",
     "@types/multer": "^1.4.7",
+    "@types/node": "^20.4.5",
     "@types/nodemailer": "^6.4.8",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
