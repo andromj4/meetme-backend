@@ -1,0 +1,15 @@
+## backend
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# build
+/build
+/dist
+
+# vscode
+/.vscode
+
+# local env files
+/.env.development
+/.env.production
